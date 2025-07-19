@@ -74,7 +74,7 @@ const ChatPage = () => {
         setChannel(currChannel);
 
         // 👇 Socket.IO setup (after setChannel)
-const newSocket = io("http://localhost:5000", {
+const newSocket = io("https://streamify-video-app-backend.onrender.com", {
   withCredentials: true,
 });
 
